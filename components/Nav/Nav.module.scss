@@ -1,0 +1,44 @@
+@import '../../styles/variable.scss';
+
+
+.admin{
+color: white;
+fill:white;
+display: flex;
+align-items: center;
+gap: 1.5rem;
+padding: 0 0.5rem 1rem 1rem;
+}
+
+.listitem{
+   padding: 0.5rem;
+   margin-left: 0.5rem;
+   fill: white;
+   color: white;
+   a{
+      fill: inherit;
+      display: flex;
+      align-items: center;
+      gap: 1em;
+   }
+   &:hover{
+      background-color:white;
+      color: $mainColor;
+      fill: rgb(17, 79, 104);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+}
+
+.inactive{
+   fill: white;
+}
+
+.active{
+      background-color:white;
+      color: $mainColor;
+      fill: rgb(17, 79, 104);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+}

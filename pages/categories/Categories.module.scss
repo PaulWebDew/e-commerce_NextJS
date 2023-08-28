@@ -1,0 +1,11 @@
+.verticalScroll{
+   &::-webkit-scrollbar{
+      width: 0.7rem;
+      background-color: rgba( #1b6357,0.5);
+      border-radius: 2rem;
+   }
+   &::-webkit-scrollbar-thumb{
+      background-color: rgba( #1b6357,0.8);
+      border-radius: 1rem;
+   }
+}

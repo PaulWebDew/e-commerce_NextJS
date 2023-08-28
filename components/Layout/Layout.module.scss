@@ -1,0 +1,23 @@
+@import '/styles/variable.scss';
+
+.layoutWrapper{
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(-40deg, rgb(17, 79, 104)30%, rgb(22, 121, 114));
+   display: flex;
+   aside{
+      padding: 20px 0;
+   }
+}
+
+.childwrapper{
+   flex: 1;
+   background-color: white;
+   color: $mainColor;
+   margin: 0.5rem 0.5rem 0.5rem 0;
+
+   border-radius: 12px;
+   padding: 12px;
+
+
+}

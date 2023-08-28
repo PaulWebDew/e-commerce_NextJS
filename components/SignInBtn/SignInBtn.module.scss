@@ -1,0 +1,38 @@
+@import '/styles/variable.scss';
+
+.welcome{
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   button{
+      background-color: $secondColor;
+      border-radius: 0.4rem;
+      padding: 0.3rem;
+      &:hover{
+         background-color: $secondColorHover;
+      }
+   }
+}
+
+
+.user{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+}
+
+.user_image{
+   border-radius: 50%;
+}
+
+.user_info{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   color: white;
+   padding: 0.3rem;
+   border-radius: 20px;
+   background-color: $secondColor;
+}
+
